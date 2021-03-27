@@ -6,6 +6,9 @@
 		height: 80vh;
 		position: relative;
 		left: 370px;
+		background: url("/TOP/Apple-page/images/3.jpg");
+
+		object-fit: fill;
 	}
 	#arrows {
 		height: 10vh;
