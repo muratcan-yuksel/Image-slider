@@ -7,6 +7,16 @@
 		position: relative;
 		left: 370px;
 	}
+	.items {
+		width: 100%;
+		height: 100%;
+		/* background: url("/TOP/Apple-page/images/3.jpg"); */
+		background: black;
+		display: none;
+		color: white;
+		font-size: 100px;
+		text-align: center;
+	}
 	#one {
 		width: 100%;
 		height: 100%;
@@ -67,30 +77,77 @@
 	}
 	.arrowButtons {
 		width: 5em;
+		cursor: pointer;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		color: blue;
 	}
 }
 /* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa */
-/* for desktop */
-
+/* for mobile */
+#forMobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 #container {
 	border: 1px solid black;
-	width: 40vw;
+	width: 100vw;
 	height: 80vh;
-	position: relative;
-	left: 370px;
+	/* position: relative; */
+}
+.items {
+	width: 100%;
+	height: 100%;
+	/* background: url("/TOP/Apple-page/images/3.jpg"); */
+	background: black;
+	display: none;
+	color: white;
+	font-size: 100px;
+	text-align: center;
 }
 #one {
 	width: 100%;
 	height: 100%;
 	/* background: url("/TOP/Apple-page/images/3.jpg"); */
 	background: black;
-	display: none;
-	/* display: block; */
+	/* display: none; */
+	display: block;
 	color: white;
 	font-size: 100px;
 	text-align: center;
 }
-.items {
+#two {
+	width: 100%;
+	height: 100%;
+	/* background: url("/TOP/Apple-page/images/3.jpg"); */
+	background: black;
+	display: none;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+#three {
+	width: 100%;
+	height: 100%;
+	/* background: url("/TOP/Apple-page/images/3.jpg"); */
+	background: black;
+	display: none;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+#four {
+	width: 100%;
+	height: 100%;
+	/* background: url("/TOP/Apple-page/images/3.jpg"); */
+	background: black;
+	display: none;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+#five {
 	width: 100%;
 	height: 100%;
 	/* background: url("/TOP/Apple-page/images/3.jpg"); */
@@ -109,6 +166,10 @@
 }
 .arrowButtons {
 	width: 5em;
+	cursor: pointer;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	color: blue;
 }
 /* The dots/bullets/indicators */
 .dot {
