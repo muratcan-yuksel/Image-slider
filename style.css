@@ -7,7 +7,17 @@
 		position: relative;
 		left: 370px;
 	}
-	#try {
+	#one {
+		width: 100%;
+		height: 100%;
+		/* background: url("/TOP/Apple-page/images/3.jpg"); */
+		background: black;
+		/* display: none; */
+		color: white;
+		font-size: 100px;
+		text-align: center;
+	}
+	#two {
 		width: 100%;
 		height: 100%;
 		/* background: url("/TOP/Apple-page/images/3.jpg"); */
@@ -15,17 +25,37 @@
 		display: none;
 		color: white;
 		font-size: 100px;
-		/* visibility: hidden; */
+		text-align: center;
 	}
-	#try2 {
+	#three {
 		width: 100%;
 		height: 100%;
 		/* background: url("/TOP/Apple-page/images/3.jpg"); */
 		background: black;
-
+		display: none;
 		color: white;
 		font-size: 100px;
-		/* visibility: hidden; */
+		text-align: center;
+	}
+	#four {
+		width: 100%;
+		height: 100%;
+		/* background: url("/TOP/Apple-page/images/3.jpg"); */
+		background: black;
+		display: none;
+		color: white;
+		font-size: 100px;
+		text-align: center;
+	}
+	#five {
+		width: 100%;
+		height: 100%;
+		/* background: url("/TOP/Apple-page/images/3.jpg"); */
+		background: black;
+		display: none;
+		color: white;
+		font-size: 100px;
+		text-align: center;
 	}
 
 	#arrows {
