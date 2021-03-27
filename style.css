@@ -1,7 +1,14 @@
 /* for desktop */
 @media only screen and (min-width: 768px) {
-	#arrows {
+	#container {
+		border: 1px solid black;
+		width: 40vw;
 		height: 80vh;
+		position: relative;
+		left: 370px;
+	}
+	#arrows {
+		height: 10vh;
 		display: flex;
 		justify-content: space-around;
 		align-items: flex-end;
